@@ -30,4 +30,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .speed-normal {
+    @apply transition-all duration-500 ease-in-out;
+  }
 }
