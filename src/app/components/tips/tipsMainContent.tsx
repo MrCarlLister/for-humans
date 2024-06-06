@@ -1,7 +1,6 @@
 
 import fs from 'fs';
 import path from 'path';
-import { classNames } from 'utils/helper';
 import TipArea from 'components/tips/tipArea';
 import TipSidebar from 'components/tips/tipSideBar';
 
@@ -17,22 +16,24 @@ import TipSidebar from 'components/tips/tipSideBar';
 type Tip = {
     content: string[];
     inspo: string[];
-    reference: string[];
+    reference: { id: number; text: string; link: string; }[];
 };
 
-
-export default function mainContent(props) {
+export default function mainContent(props: { id: number }) {
 
     // convert props.id to string
     const id = props.id.toString();
 
     const filePath = path.join(process.cwd(), 'public', 'tips', id, 'data.json');
     const jsonData = fs.readFileSync(filePath, 'utf8');
-    const tips: Tip[] = JSON.parse(jsonData);
-    // const tips = JSON.parse(jsonData);
+    // const tips: Tip[] = JSON.parse(jsonData);
+    const tips = JSON.parse(jsonData);
+    // console.log(tips.content);
   
 
    
+
+
 
     return (
         <div className='bg-gray-200 text-black py-24'>
@@ -41,9 +42,9 @@ export default function mainContent(props) {
                 {/* Left sidebar & main wrapper */}
                 <div className="flex-1 xl:flex  xl:px-8 bg-white rounded-md">
 
-                    <TipArea content={tips} />
-                
-                    
+                    <TipArea content={tips.content} />
+
+
                 </div>
 
                 <TipSidebar content={tips} />

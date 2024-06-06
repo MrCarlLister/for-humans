@@ -80,8 +80,8 @@ const TipDetail = async ({ params }: TipDetailProps) => {
   
   return (
     <main>
-      <Hero headline={tip.title} desc={tip.desc} id={tip.id} image={imagePath} />
-      <MainContent id={tip.id} image={tip.image} />
+      <Hero headline={tip.title} desc={tip.desc} image={imagePath} />
+      <MainContent id={tip.id} />
       <Newsletter />
       <Footer />
     </main>

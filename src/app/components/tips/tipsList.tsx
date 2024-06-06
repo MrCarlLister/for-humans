@@ -9,7 +9,7 @@ import TipsCardInactive from './tipsCardInactive';
   
 
 type Tip = {
-    active: string;
+    active: boolean;
     subhead: string;
     type: string;
     title: string;
@@ -45,14 +45,10 @@ type Tip = {
                 : <TipsCardInactive
                     key={tip.title}
                     title={tip.title}
-                    iconBackground={tip.iconBackground}
-                    iconForeground={tip.iconForeground}
                     icon={tip.icon}
-                    href={tip.href}
                     desc={tip.desc}
                     type={tip.type}
                     subhead={tip.subhead}
-                    active={tip.active}
                   />
             ))}
         </div>

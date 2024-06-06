@@ -6,13 +6,9 @@ import * as Icons from '@heroicons/react/24/outline'
 
 
 
-export default function tipsCard(props) {
-    const Icon = Icons[props.icon]; // Get the corresponding icon component
-    const Theme = props.type === "tip" ? 'bg-black' : 'bg-gray-400';
-    // const iconBackground = props.type === "tip" ? 'bg-primary' : 'bg-secondary';
-    const iconBackground = 'bg-black';
-    const iconForeground = props.type === "tip" ? 'text-white' : 'text-black';
-
+export default function tipsCard(props: { icon: string, type: string, title: string, subhead: string, desc: string, href: string, active: boolean, iconBackground: string, iconForeground: string }) {
+    const Icon = Icons[props.icon as keyof typeof Icons]; // Get the corresponding icon component
+ 
     return (
         <div
               key={props.title}

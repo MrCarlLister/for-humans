@@ -1,5 +1,4 @@
 
-import { classNames } from 'utils/helper';
 const statuses = {
     'Complete': 'text-green-700 bg-green-50 ring-green-600/20',
     'In progress': 'text-gray-600 bg-gray-50 ring-gray-500/10',
@@ -54,7 +53,7 @@ const projects = [
 ]
 
 
-export default function tipSideBar(props) {
+export default function tipSideBar(props: { content: { reference: { id: number, text: string, link: string }[] } }) {
 
     const references = props.content.reference;
 

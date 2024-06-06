@@ -4,7 +4,7 @@ import MainNav from 'components/global/main-nav';
 
 
 
-export default function HeroTips(props) {
+export default function HeroTips(props: { headline: string, desc: string, image: string }) {
     // const imageUrl = props.image;
     
 

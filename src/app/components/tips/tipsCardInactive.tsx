@@ -1,16 +1,14 @@
 
-import Link from 'next/link';
+import { classNames } from 'utils/helper';
+
 
 
 import * as Icons from '@heroicons/react/24/outline'
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
   
 
-export default function tipsCard(props) {
-    const Icon = Icons[props.icon]; // Get the corresponding icon component
+export default function tipsCard(props: { icon: string, type: string, title: string, subhead: string, desc: string }) {
+    const Icon = Icons[props.icon as keyof typeof Icons]; // Get the corresponding icon component
     const Theme = props.type === "tip" ? 'bg-black' : 'bg-gray-400';
     const iconBackground = 'bg-gray-200';
     const iconForeground = 'text-black';
