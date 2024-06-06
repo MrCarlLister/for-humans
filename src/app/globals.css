@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,7 +27,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
 @layer utilities {
+    .wysiwyg {
+        @apply prose;
+    }
+    .highlighter {
+        @apply bg-secondary text-black p-1 inline-block;
+    }
   .text-balance {
     text-wrap: balance;
   }

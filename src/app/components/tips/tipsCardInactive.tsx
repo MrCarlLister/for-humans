@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 export default function tipsCard(props) {
     const Icon = Icons[props.icon]; // Get the corresponding icon component
-    const Theme = props.type === "tip" ? 'bg-primary' : 'bg-secondary';
+    const Theme = props.type === "tip" ? 'bg-black' : 'bg-gray-400';
     const iconBackground = 'bg-gray-200';
     const iconForeground = 'text-black';
 
@@ -19,7 +19,7 @@ export default function tipsCard(props) {
         <div
               key={props.title}
               className={classNames(
-                  'group relative bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 rounded-lg overflow-hidden speed-normal opacity-30 '
+                  'group relative bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 rounded-lg overflow-hidden speed-normal opacity-30 border-[1px] border-solid border-gray-400'
                 )}
             >
                 <div className={classNames(Theme,"w-full h-24 bg-gray-300 block")}>
@@ -38,7 +38,7 @@ export default function tipsCard(props) {
                 </span>
               </div>
               <div className="mt-8 px-8 pb-12">
-                <h3 className="text-4xl font-serif font-bold  text-black">
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold  text-black">
                   
                   
                     {/* Extend touch target to entire panel */}

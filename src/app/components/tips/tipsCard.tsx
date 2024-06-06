@@ -1,18 +1,16 @@
 
 import Link from 'next/link';
-
+import { classNames } from 'utils/helper';
 
 import * as Icons from '@heroicons/react/24/outline'
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
-  
+
 
 export default function tipsCard(props) {
     const Icon = Icons[props.icon]; // Get the corresponding icon component
-    const Theme = props.type === "tip" ? 'bg-primary' : 'bg-secondary';
-    const iconBackground = props.type === "tip" ? 'bg-primary' : 'bg-secondary';
+    const Theme = props.type === "tip" ? 'bg-black' : 'bg-gray-400';
+    // const iconBackground = props.type === "tip" ? 'bg-primary' : 'bg-secondary';
+    const iconBackground = 'bg-black';
     const iconForeground = props.type === "tip" ? 'text-white' : 'text-black';
 
     return (
@@ -23,18 +21,18 @@ export default function tipsCard(props) {
                 //   actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
                 //   actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
                 //   actionIdx === actions.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
-                  'group relative bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 rounded-lg overflow-hidden hover:shadow-xl hover:-translate-y-4 speed-normal '
+                  'group relative bg-white focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 rounded-lg overflow-hidden hover:shadow-xl hover:-translate-y-4 speed-normal border-[1px] border-solid border-gray-400'
                 )}
             >
-                <div className={classNames(Theme,"w-full h-24 bg-primary block")}>
+                <div className={classNames(" bg-gradient-to-tr from-" + props.iconForeground  + "-200 to-" + props.iconBackground  + "-200 w-full h-24 block")}>
                     <span className="absolute top-4 left-8 z-50 rounded-full bg-white text-xs text-black py-1 px-2 capitalize">{props.type}</span>
                     
                 </div>
               <div className="px-8 -mt-4">
                 <span
                   className={classNames(
-                    iconBackground,
-                    iconForeground,
+                    'text-'+props.iconForeground+'-200',
+                    'bg-black',
                     'inline-flex rounded-lg p-3 ring-4 ring-white'
                   )}
                 >
@@ -42,7 +40,7 @@ export default function tipsCard(props) {
                 </span>
               </div>
               <div className="mt-8 px-8 pb-12">
-                <h3 className="text-4xl font-serif font-bold  text-black">
+                <h3 className="text-2xl sm:text-3xl font-serif font-bold  text-black">
                   
                   <Link key={ props.href} href={ props.href} className="focus:outline-none">
                     {/* Extend touch target to entire panel */}
@@ -56,7 +54,7 @@ export default function tipsCard(props) {
                 </p>
               </div>
               <span
-                className={classNames(iconForeground,"pointer-events-none absolute right-6 top-6  speed-normal group-hover:translate-x-2 group-hover:-translate-y-2")}
+                className={classNames("text-white pointer-events-none absolute right-6 top-6  speed-normal group-hover:translate-x-2 group-hover:-translate-y-2")}
                 aria-hidden="true"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

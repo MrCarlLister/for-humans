@@ -1,84 +1,76 @@
 [
     {
-        "id": 1,
         "active": true,
         "subhead": "UX Tip 1",
-        "title": "Improve your buttons",
+        "title": "How to avoid bland buttons",
         "desc": "3 tips to boost your button performance",
+        "content": "CONTENT — 3 tips to boost your button performance",
         "href": "/tips/ux-tip-1-how-to-avoid-bland-buttons",
-        "image": "hero-improve-your-buttons.jpg",
         "type": "tip",
         "icon": "ArrowRightCircleIcon",
-        "iconForeground": "red",
-        "iconBackground": "yellow"
-               
+        "iconForeground": "text-teal-700",
+        "iconBackground": "bg-teal-50"
       },
       {
-        "id": 2,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 2",
-        "title": "Forms",
+        "title": "All about forms",
         "desc": "🛠️ 3 Quick Fixes for Form Success",
         "content": "CONTENT — 🛠️ 3 Quick Fixes for Form Success",
         "href": "/tips/ux-tip-2-all-about-forms",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "IdentificationIcon",
-        "iconForeground": "orange",
-        "iconBackground": "purple" 
+        "iconForeground": "text-purple-700",
+        "iconBackground": "bg-purple-50"
       },
       {
-        "id": 3,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 3",
-        "title": "Writing content",
+        "title": "Contextual Content",
         "desc": "✍️ Writing content for users, not your business",
         "content": "CONTENT — ✍️ Writing content for users, not your business",
         "href": "/tips/ux-tip-3-contextual-content",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "UsersIcon",
-        "iconForeground": "pink",
-        "iconBackground": "green" 
+        "iconForeground": "text-sky-700",
+        "iconBackground": "bg-sky-50"
       },
       {
-        "id": 4,
-        "active": false,
-        "title": "What does UX mean?",
-        "desc": "And how it can help grow your business",
+        "active": true,
+        "title": "How a lil` UX can grow your business",
+        "desc": "👀 But what is \"UX\"!",
         "content": "CONTENT — 👀 But what is \"UX\"!",
         "href": "/tips/how-a-lil-ux-can-grow-your-business",
-        "type": "Coming soon",
+        "type": "what is...",
         "icon": "FireIcon",
-        "iconForeground": "red",
-        "iconBackground": "blue" 
+        "iconForeground": "text-yellow-700",
+        "iconBackground": "bg-yellow-50"
       },
       {
-        "id": 5,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 4",
         "title": "Making navigation easy",
         "desc": "It\"s more than a hamburger 🍔",
         "content": "CONTENT — It\"s more than a hamburger 🍔",
         "href": "/tips/ux-tip-4-making-navigation-easy",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "Bars3Icon",
-        "iconForeground": "orange",
-        "iconBackground": "pink" 
+        "iconForeground": "text-rose-700",
+        "iconBackground": "bg-rose-50"
       },
       {
-        "id": 6,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 5",
-        "title": "Headlines: Crafting Impactful Copy",
+        "title": "Heroes and Headlines: Crafting Impactful Copy",
         "desc": "Master Benefit-Oriented Headlines!",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
         "href": "/tips/ux-tip-5-heroes-and-headlines-crafting-impactful-copy",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "ShieldCheckIcon",
-        "iconForeground": "blue",
-        "iconBackground": "yellow" 
+        "iconForeground": "text-indigo-700",
+        "iconBackground": "bg-indigo-50"
       },
       {
-        "id": 7,
         "active": false,
         "subhead": "UX Tip 6",
         "title": "Stop hiding content in sliders!",
@@ -87,11 +79,10 @@
         "href": "#",
         "type": "Coming 3rd June",
         "icon": "QuestionMarkCircleIcon",
-        "iconForeground": "orange",
-        "iconBackground": "purple" 
+        "iconForeground": "text-indigo-700",
+        "iconBackground": "bg-indigo-50"
       },
       {
-        "id": 8,
         "active": false,
         "subhead": "",
         "title": "What is a Site Map?",
@@ -100,20 +91,19 @@
         "href": "#",
         "type": "Coming 17th June",
         "icon": "QuestionMarkCircleIcon",
-        "iconForeground": "emerald",
-        "iconBackground": "fuchsia" 
+        "iconForeground": "text-indigo-700",
+        "iconBackground": "bg-indigo-50"
       },
       {
-        "id": 9,
         "active": false,
         "subhead": "UX Tip 7",
-        "title": "Familiarity — and how it impacts your site",
+        "title": "Familiarity",
         "desc": "Details coming soon!",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
         "href": "#",
         "type": "Coming 1st July",
         "icon": "QuestionMarkCircleIcon",
-        "iconForeground": "indigo",
-        "iconBackground": "amber" 
+        "iconForeground": "text-indigo-700",
+        "iconBackground": "bg-indigo-50"
       }
   ]

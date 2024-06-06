@@ -27,7 +27,7 @@ type Tip = {
     const tips: Tip[] = JSON.parse(jsonData);
   
     return (
-        <div className="rounded-lg sm:grid sm:grid-cols-3 sm:gap-8">
+        <div className="rounded-lg flex flex-col sm:grid sm:grid-cols-3 gap-8">
             {tips.map((tip) => (
                 tip.active 
                 ? <TipsCard
