@@ -23,8 +23,6 @@ type Tip = {
 
 
   const Tiplist = async (props: { currentId: number, noToShow: number }) => {
-    console.log('tip id is', props.currentId);
-    console.log('no to show', props.noToShow);
     const filePath = path.join(process.cwd(), 'public', 'tips.json');
     const jsonData = fs.readFileSync(filePath, 'utf8');
     const tips: Tip[] = JSON.parse(jsonData);

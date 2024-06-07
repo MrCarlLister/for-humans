@@ -30,8 +30,6 @@ interface PageProps {
 const Hero = ({ data }: PageProps) => {
 // export default function Example({data} : PageProps) {
 
-console.log(getTipByID(1).href)
-
   return (
     <div className="bg-white ">
         <pre>{}</pre>
