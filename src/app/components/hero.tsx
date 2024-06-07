@@ -1,7 +1,20 @@
-"use client";
+// "use client";
 
+import { GetStaticProps } from 'next';
 import Image from 'next/image'
 import MainNav from 'components/global/main-nav';
+// import { getTipByID } from 'utils/serverHelper';
+
+import fs from 'fs';
+import path from 'path';
+
+export function getTipByID(id: number) {
+  const filePath = path.join(process.cwd(), 'public', 'tips.json');
+  const jsonData = fs.readFileSync(filePath, 'utf8');
+  const tips = JSON.parse(jsonData);
+
+  return tips.find((tip: any) => tip.id === id);
+}
 
 import heroImage1 from 'public/tip-1/tip1-3.jpg';
 import heroImage2 from 'public/tip-2/tip2-2.jpg';
@@ -9,11 +22,19 @@ import heroImage3 from 'public/tip-1/tip1-5.jpg';
 import heroImage4 from 'public/tip-1/tip1-6.jpg';
 import heroImage5 from 'public/tip-1/tip1-7.jpg';
 
+interface PageProps {
+    data: any;
+}
 
-export default function Example() {
+
+const Hero = ({ data }: PageProps) => {
+// export default function Example({data} : PageProps) {
+
+console.log(getTipByID(1).href)
 
   return (
     <div className="bg-white ">
+        <pre>{}</pre>
         <MainNav /> 
         <main>
             <div className="relative isolate">
@@ -73,7 +94,7 @@ export default function Example() {
                     </p>
                     <div className="mt-10 inline-flex flex-col gap-y-2">
                         <a
-                        href="#"
+                        href={getTipByID(1).href}
                         className="bg-primary px-3.5 py-2.5 text-md font-bold text-white shadow-sm hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition-all duration-500 group rounded-md"
                         >
                         Read the 1st tip about buttons 👆 <span aria-hidden="true" className="mx-2 group-hover:ml-4 group-hover:mr-0 transition-all duration-500">→</span>
@@ -138,3 +159,19 @@ export default function Example() {
     </div>
   )
 }
+
+
+// export const getStaticProps: GetStaticProps = async (context) => {
+//     const id = 1; // or get this from context.params if using dynamic routes
+//     const data = getTipByID(id);
+//     console.log(data);
+  
+//     return {
+//       props: {
+//         data,
+//       },
+//     };
+//   };
+
+
+  export default Hero;

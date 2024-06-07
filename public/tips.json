@@ -6,23 +6,23 @@
         "title": "Improve your buttons",
         "desc": "3 tips to boost your button performance",
         "href": "/tips/ux-tip-1-how-to-avoid-bland-buttons",
-        "image": "hero-improve-your-buttons.jpg",
         "bgImage": "https://utfs.io/f/714f1c0f-46cf-4740-afad-60470ff25bff-ipoaj1.webp",
         "type": "tip",
         "icon": "ArrowRightCircleIcon",
         "iconForeground": "red",
         "iconBackground": "yellow"
-               
-      },
-      {
+        
+    },
+    {
         "id": 2,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 2",
         "title": "Forms",
         "desc": "🛠️ 3 Quick Fixes for Form Success",
+        "bgImage": "https://utfs.io/f/258cdf4f-963b-4e45-be29-993b7bc3d121-ipoaj0.webp",
         "content": "CONTENT — 🛠️ 3 Quick Fixes for Form Success",
         "href": "/tips/ux-tip-2-all-about-forms",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "IdentificationIcon",
         "iconForeground": "orange",
         "iconBackground": "purple" 
