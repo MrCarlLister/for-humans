@@ -50,7 +50,7 @@ export default function tipsCard(props: { icon: string, type: string, title: str
                 </p>
               </div>
               <span
-                className={classNames("text-white pointer-events-none absolute right-6 top-6  speed-normal group-hover:translate-x-2 group-hover:-translate-y-2")}
+                className={classNames("text-black pointer-events-none absolute right-6 top-6  speed-normal group-hover:translate-x-2 group-hover:-translate-y-2")}
                 aria-hidden="true"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

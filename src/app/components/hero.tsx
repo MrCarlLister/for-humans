@@ -3,11 +3,11 @@
 import Image from 'next/image'
 import MainNav from 'components/global/main-nav';
 
-import heroImage1 from '../../../public/tip-1/tip1-3.jpg';
-import heroImage2 from '../../../public/tip-2/tip2-2.jpg';
-import heroImage3 from '../../../public/tip-1/tip1-5.jpg';
-import heroImage4 from '../../../public/tip-1/tip1-6.jpg';
-import heroImage5 from '../../../public/tip-1/tip1-7.jpg';
+import heroImage1 from 'public/tip-1/tip1-3.jpg';
+import heroImage2 from 'public/tip-2/tip2-2.jpg';
+import heroImage3 from 'public/tip-1/tip1-5.jpg';
+import heroImage4 from 'public/tip-1/tip1-6.jpg';
+import heroImage5 from 'public/tip-1/tip1-7.jpg';
 
 
 export default function Example() {
@@ -66,18 +66,18 @@ export default function Example() {
                             </div>
                         </div>
                     <h1 className="text-5xl font-bold tracking-normal text-black sm:text-7xl font-serif">
-                    Your <span className="highlighter">no strings</span>, pocket-sized web design consultant.
+                    Give your customers <span className="highlighter/20">what they need,</span> <span className="highlighter">when they need it.</span>
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Tips <strong>you</strong> can action without paying a web designer or developer.
+                    Free tips <strong>you</strong> can action without paying a web designer or developer.
                     </p>
-                    <div className="mt-10 flex items-center gap-x-6">
+                    <div className="mt-10 inline-flex flex-col gap-y-2">
                         <a
                         href="#"
                         className="bg-primary px-3.5 py-2.5 text-md font-bold text-white shadow-sm hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition-all duration-500 group rounded-md"
                         >
-                        Get your first tip <span aria-hidden="true" className="mx-2 group-hover:ml-4 group-hover:mr-0 transition-all duration-500">→</span>
-                        </a>
+                        Read the 1st tip about buttons 👆 <span aria-hidden="true" className="mx-2 group-hover:ml-4 group-hover:mr-0 transition-all duration-500">→</span>
+                        </a> 
                         
                     </div>
                     </div>

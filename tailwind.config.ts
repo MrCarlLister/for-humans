@@ -9,6 +9,8 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx,json}"
   ],
   safelist: [
+    'italic',
+    'uppercase',
     'to-red-200',
     'to-yellow-200',
     'to-green-200',

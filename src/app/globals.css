@@ -33,7 +33,10 @@ body {
         @apply prose;
     }
     .highlighter {
-        @apply bg-secondary text-black p-1 inline-block;
+        @apply bg-secondary p-1 inline-block;
+    }
+    .highlighter\/20 {
+        @apply bg-secondary/20 p-1 inline-block;
     }
   .text-balance {
     text-wrap: balance;

@@ -53,9 +53,10 @@ const projects = [
 ]
 
 
-export default function tipSideBar(props: { content: { reference: { id: number, text: string, link: string }[] } }) {
+export default function tipSideBar(props: { content: { reference: { id: number, text: string, link: string, status: string }[], inspo: { id: number, link: string }[] } }) {
 
     const references = props.content.reference;
+    const inspiration = props.content.inspo;
 
    
     if (!Array.isArray(references) || references.length === 0) {
@@ -63,11 +64,10 @@ export default function tipSideBar(props: { content: { reference: { id: number, 
     }
 
     return (
-        // check if the reference is an array
-        
+        <aside className="flex flex-col gap-8">
         <div className="shrink-0 border-t border-gray-200 px-4 sm:px-6 lg:w-96 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6 ">
             <ul role="list" className="divide-y divide-gray-100 py-8 xl:px-8 bg-white rounded-md">
-                <h2 className="font-serif text-2xl font-bold text-black">Reference</h2>
+                <h2 className="font-serif text-2xl font-bold text-black">Reference ✍️</h2>
                 {references.map((reference) => (
                      <li key={reference.id} className="flex items-center justify-between gap-x-6 py-5">
                      <div className="min-w-0">
@@ -96,8 +96,35 @@ export default function tipSideBar(props: { content: { reference: { id: number, 
                    </li>
                  ))}
       
-    </ul>
+            </ul>
         </div>
+
+        <div className="shrink-0 border-t border-gray-200 px-4 sm:px-6 lg:w-96 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6 ">
+            <ul role="list" className="divide-y divide-gray-100 py-8 xl:px-8 bg-white rounded-md">
+                <h2 className="font-serif text-2xl font-bold text-black">Inspiration 💡</h2>
+                
+                     <div className="flex items-center justify-between gap-x-6 py-5">
+                     <div className="min-w-0">
+                       <div className="flex items-start gap-x-3">
+                           
+                       </div>
+                       
+                     </div>
+                     <div className="flex flex-none items-center gap-x-4">
+                       <a
+                         href={inspiration.link}
+                         className="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block"
+                       >
+                         View reference
+                       </a>
+                       
+                     </div>
+                   </div>
+                 
+      
+            </ul>
+        </div>
+        </aside>
         
     )
 

@@ -4,20 +4,20 @@
             "content": [
                 {
                     "id": 1,
-                    "html":"<p>This week we are looking at buttons, and how we can make them more irresistible to your customers.</p><p class='font-bold'>The following are all content changes, so you can make these changes without a developer's help</p>"
+                    "html":"<h2 class='font-serif'>Let's begin</h2><p>The words you use on your buttons can make or break a customers engagement.</p><p class='font-bold'>The following are all content changes, so you can make these changes without a developer's help</p>"
 
                 },
                 {
                     "id": 2,
-                    "html": "<h2 class='font-serif' id='tip-1'>1. Use action words</h2><p>Some action words you could use; <ul><li>Get the look</li><li>Create an account</li><li>Reserve your copy</li><li>Buy lamp</li><li>Join the community</li></ul>"
+                    "html": "<h2 class='font-serif' id='tip-1'>1. Use action words</h2><p>Some action words you could use; <ul><li><strong>Get</strong the look</li><li><strong>Create</strong> an account</li><li><strong>Reserve</strong> your copy</li><li><strong>Buy</strong> lamp</li><li><strong>Join</strong> the community</li></ul>"
                 },
                 {
                     "id": 3,
-                    "html": "<h2 class='font-serif' id='tip-2'>2. Be transparent</h2><p>Don't hide your important links within paragraphs, give them a beautiful button.</p><p>Be clear about what will happen when the button is clicked.</p><ul><li>Subscribe to UX Tips Weekly</li><li>Buy the TrendMaster 3000</li></ul><p class='font-bold'>Be transparent, it can be a super power.</p><ul><li>Create an account for free</li><li>Reserve your spot, cancel any time</li></ul>"
+                    "html": "<h2 class='font-serif' id='tip-2'>2. Be transparent</h2><p>Don't hide your important links within paragraphs, give them a beautiful button.</p><p>Be clear about what will happen when the button is clicked.</p><ul><li>Subscribe to <strong>UX Tips Weekly</strong></li><li>Buy the <strong>TrendMaster 3000</strong></li></ul><p class='font-bold'>Be transparent, it can be a super power.</p><ul><li>Create an account <strong>for free</strong></li><li>Reserve your spot, <strong>cancel any time</strong></li></ul>"
                 },
                 {
                      "id": 4,
-                     "html": "<h2 class='font-serif' id='tip-3'>3. Use action words</h2><p>Some action words you could use; <ul><li>Get the look</li><li>Create an account</li><li>Reserve your copy</li><li>Buy lamp</li><li>Join the community</li></ul>"
+                     "html": "<h2 class='font-serif' id='tip-3'>3. Create urgency</h2><p>\"Urgency\" is about being transparent about how limiting your action is. It's useful for lead generation and e-commerce; <ul><li>Get 50% off <strong>today only</strong></li><li>Book your spot – <strong>only 2 left</strong></li><li>Donate <strong>now</strong>; we’ll double it</li></ul>"
                 }
             ],
             "inspo":
