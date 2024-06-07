@@ -7,7 +7,7 @@
 
         },
         {
-            "html": "<h2 class='font-serif' id='tip-1'>1. Don’t be greedy</h2><p>Forms are a great chance to tease out a customer’s details, but you don’t need everything upfront.</p><p>Only ask for personal data that is required for them to complete the action. If you only need the customers email and a password to register, only ask for this information. Not the company or job title.</p>"
+            "html": "<h2 class='font-serif' id='tip-1'>1. Don’t be greedy</h2><p>Forms are a great chance to tease out a customer’s details, but you don’t need everything upfront.</p><p>Only ask for personal data that is required for them to complete the action. Otherwise you’re at risk at turning them off. <h3>Register form?</h3><strong>Email and password;</strong><p>Maybe a username, if the account will be public facing. Anything else needs to be carefully considered.</p><h3>Contact form?</h3><strong>Email, enquiry detail, and name</strong><p>You can make an argument for a telephone field (if customers expect a response in this way) and the enquiry type field (if there’s more than 1 primary reason they might be contacting you).</p>"
         },
         {
             "type": "bonus",

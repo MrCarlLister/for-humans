@@ -16,13 +16,13 @@
       },
       {
         "id": 2,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 2",
         "title": "Forms",
         "desc": "🛠️ 3 Quick Fixes for Form Success",
         "content": "CONTENT — 🛠️ 3 Quick Fixes for Form Success",
         "href": "/tips/ux-tip-2-all-about-forms",
-        "type": "Coming soon",
+        "type": "tip",
         "icon": "IdentificationIcon",
         "iconForeground": "orange",
         "iconBackground": "purple" 

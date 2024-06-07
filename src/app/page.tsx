@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <Hero data={1} />
       <Tips />
       <Newsletter />
       <Footer />

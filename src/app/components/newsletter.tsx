@@ -23,7 +23,10 @@ export default function Example() {
             <p className="mx-auto mt-2 max-w-3xl text-center text-lg leading-8 text-gray-300">
               We send out tips every other week. No spam. Unsubscribe at any time.
             </p>
-            <form className="mx-auto mt-10 flex max-w-md gap-x-4">
+            <div  className="mx-auto mt-10 flex max-w-md gap-x-4">
+            <iframe src="https://embeds.beehiiv.com/fed92e84-9aba-42e9-8fdb-e372a35302a8?slim=true" frameborder="0" scrolling="no" data-test-id="beehiiv-embed" height="52"  style={{margin: 0, borderRadius: '0px', backgroundColor: 'transparent', width:'100%'}}></iframe>
+            </div>
+            {/* <form className="mx-auto mt-10 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
@@ -43,7 +46,7 @@ export default function Example() {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
             <svg
               viewBox="0 0 1024 1024"
               className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
