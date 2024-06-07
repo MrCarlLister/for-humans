@@ -53,10 +53,10 @@ const projects = [
 ]
 
 
-export default function tipSideBar(props: { content: { reference: { id: number, text: string, link: string, status: string }[], inspo: { id: number, link: string }[] } }) {
+export default function tipSideBar(props: { content: { reference: { id: number, text: string, link: string, status: string }[], inspo: { id: number, link: string } } }) {
 
     const references = props.content.reference;
-    const inspiration = props.content.inspo;
+    const inspirationLink = props.content.inspo.link;
 
    
     if (!Array.isArray(references) || references.length === 0) {
@@ -112,7 +112,7 @@ export default function tipSideBar(props: { content: { reference: { id: number, 
                      </div>
                      <div className="flex flex-none items-center gap-x-4">
                        <a
-                         href={inspiration.link}
+                         href={inspirationLink}
                          className="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block"
                        >
                          View reference
