@@ -20,6 +20,7 @@ export default function RootLayout({
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <link rel="preconnect" href="https://fonts.gstatic.com"></link>
             <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"></link>
+            <script defer src="https://app.tinyanalytics.io/pixel/yxROWCwvXcVW2hfG"></script>
         </head>
         <body>{children}</body>
     </html>
