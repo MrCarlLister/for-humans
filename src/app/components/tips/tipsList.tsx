@@ -29,7 +29,7 @@ type Tip = {
     // var counter = 0;
   
     return (
-        <div className="rounded-lg flex flex-col sm:grid sm:grid-cols-3 gap-8">
+        <div className="rounded-lg flex flex-col sm:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {tips.map((tip,i) => (
                 i <= props.noToShow ? 
                 

@@ -36,14 +36,13 @@ export default function mainContent(props: { id: number }) {
 
 
     return (
-        <div className='bg-gray-200 text-black py-24'>
+        <div className='bg-gray-200 text-black lg:py-24'>
             {/* 3 column wrapper */}
-            <div className="mx-auto w-full max-w-7xl grow lg:flex">
+            <div className="mx-auto w-full max-w-7xl grow flex flex-col lg:flex-row gap-8 lg:gap-8 lg:px-8">
                 {/* Left sidebar & main wrapper */}
-                <div className="flex-1 xl:flex  xl:px-8 bg-white rounded-md">
+                <div className="flex-1 xl:flex  xl:px-8 bg-white lg:rounded-md">
 
                     <TipArea content={tips.content} />
-
 
                 </div>
 
