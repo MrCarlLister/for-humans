@@ -16,7 +16,7 @@ export default function HeroTips(props: { headline: string, desc: string, image:
 
   return (
     <div style={heroStyle} className={classNames("  relative isolate overflow-hidden bg-white bg-cover bg-center bg-no-repeat")}>
-        <div className={classNames(" bg-gradient-to-br from-white via-" + props.fg  + "-200 to-transparent " + props.bg  + "-200 from-40%  relative isolate overflow-hidden")}>
+        <div className={classNames(" md:bg-gradient-to-br from-white via-" + props.fg  + "-200 to-transparent " + props.bg  + "-200 from-40%  relative isolate overflow-hidden bg-white/90 lg:bg-transparent")}>
         <MainNav />
       
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 ">
