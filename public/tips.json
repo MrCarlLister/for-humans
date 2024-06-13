@@ -26,16 +26,17 @@
         "icon": "IdentificationIcon",
         "iconForeground": "orange",
         "iconBackground": "purple" 
-      },
-      {
+    },
+    {
         "id": 3,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 3",
         "title": "Writing content",
         "desc": "✍️ Writing content for users, not your business",
+        "bgImage": "https://utfs.io/f/1b7c0f26-aad5-4584-aff1-ea1f4953ef41-ipoaiz.webp",
         "content": "CONTENT — ✍️ Writing content for users, not your business",
         "href": "/tips/ux-tip-3-contextual-content",
-        "type": "Coming soon",
+        "type": "Tip",
         "icon": "UsersIcon",
         "iconForeground": "pink",
         "iconBackground": "green" 
