@@ -56,13 +56,13 @@
       },
       {
         "id": 5,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 4",
         "title": "Making navigation easy",
         "desc": "It\"s more than a hamburger 🍔",
         "content": "CONTENT — It\"s more than a hamburger 🍔",
         "href": "/tips/ux-tip-4-making-navigation-easy",
-        "type": "Coming soon",
+        "type": "Tips",
         "icon": "Bars3Icon",
         "iconForeground": "orange",
         "iconBackground": "pink" 
