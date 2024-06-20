@@ -43,12 +43,13 @@
       },
       {
         "id": 4,
-        "active": false,
+        "active": true,
         "title": "What does UX mean?",
         "desc": "And how it can help grow your business",
+        "bgImage": "https://utfs.io/f/e1b9b903-46b5-4476-82d6-e4fadc121ec2-ipoaiy.webp",
         "content": "CONTENT — 👀 But what is \"UX\"!",
         "href": "/tips/how-a-lil-ux-can-grow-your-business",
-        "type": "Coming soon",
+        "type": "What is",
         "icon": "FireIcon",
         "iconForeground": "red",
         "iconBackground": "blue" 
