@@ -13,7 +13,7 @@
             "html": "<h2 class='font-serif' id='tip-2'>2. What’s the point?</h2><p>It's important to define the content your writing with a need or pain-point your customer is experiencing. This will help you write more useful content.</p><p>For example, if you're a coffee shop owner, you could write tips about brewing your own coffee.</p><p>This will not only attract people looking for somewhere to enjoy a nice hot drink but also those interested in brewing their own from home</p>"
         },
         {
-            "html": "<h2 class='font-serif' id='tip-3'>3. Assume your customers are distracted</h2><p>It's likely that your customers are distracted. To combat this split attention;<ul><li>Include bullet lists in your page content to help customers who are skimming your content</li><li>Write descriptive headlines</li><li>And equally descriptive call to actions (buttons, I wrote more on those)</li></ul>"
+            "html": "<h2 class='font-serif' id='tip-3'>3. Assume your customers are distracted</h2><p>It's likely that your customers are distracted. To combat this split attention;<ul><li>Include bullet lists in your page content to help customers who are skimming your content</li><li>Write descriptive headlines</li><li>And equally descriptive call to actions (buttons, <a href=\"/tips/ux-tip-1-how-to-avoid-bland-buttons\">I wrote more on those</a>)</li></ul>"
         }
     ],
     "inspo":
