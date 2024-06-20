@@ -26,28 +26,30 @@
         "icon": "IdentificationIcon",
         "iconForeground": "orange",
         "iconBackground": "purple" 
-      },
-      {
+    },
+    {
         "id": 3,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 3",
         "title": "Writing content",
         "desc": "✍️ Writing content for users, not your business",
+        "bgImage": "https://utfs.io/f/1b7c0f26-aad5-4584-aff1-ea1f4953ef41-ipoaiz.webp",
         "content": "CONTENT — ✍️ Writing content for users, not your business",
         "href": "/tips/ux-tip-3-contextual-content",
-        "type": "Coming soon",
+        "type": "Tip",
         "icon": "UsersIcon",
         "iconForeground": "pink",
         "iconBackground": "green" 
       },
       {
         "id": 4,
-        "active": false,
+        "active": true,
         "title": "What does UX mean?",
         "desc": "And how it can help grow your business",
+        "bgImage": "https://utfs.io/f/e1b9b903-46b5-4476-82d6-e4fadc121ec2-ipoaiy.webp",
         "content": "CONTENT — 👀 But what is \"UX\"!",
         "href": "/tips/how-a-lil-ux-can-grow-your-business",
-        "type": "Coming soon",
+        "type": "What is",
         "icon": "FireIcon",
         "iconForeground": "red",
         "iconBackground": "blue" 

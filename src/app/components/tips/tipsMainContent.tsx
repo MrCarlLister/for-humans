@@ -43,6 +43,7 @@ export default function mainContent(props: { id: number }) {
                 <div className="flex-1 xl:flex  xl:px-8 bg-white lg:rounded-md">
 
                     <TipArea content={tips.content} />
+                    
 
                 </div>
 
