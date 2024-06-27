@@ -3,22 +3,20 @@
         
     "content": [
         {
-            "html":"<h2 class='font-serif'>First, what IS “UX”?</h2><ul><li>UX stands for User Experience.</li><li>It is the defining of the <strong>Who, Why, What, and How</strong> a Product is used.</li><li>To arrive at these definitions, research and not opinions must be applied.</li></ul>"
+            "type": "quote",
+            "html":"<p>Navigation UX is the design that guides users intuitively through a product’s interface to achieve their goals. </p><a href=\"https://userpilot.com/blog/navigation-ux/\" target=\"_blank\">— userpilot.com</a>"
 
         },
         {
-            "html": "<p>Things a UX designer may do;</p><p><ul><li>Hold workshops with the client to understand <strong>goals, objectives and pain-points</strong></li><li>Run <strong>interviews with customers</strong> to get an insight into their current experiences and expectations of the clients product or services</li><li>Create a <strong>customer journey</strong> (i.e. errr, the journey of a customer)</li><li>Create a <strong>website hierarchy</strong> or <strong>sitemap</strong> (i.e. which pages sit below and next to other pages)</li><li>Design the product UI (<strong>User interface</strong>)</li><li>Work with customers post-purchase, to iteratively improve the UX going forward</li></ul></p>"
+            "html": "<h2 class='font-serif'>1. Think about the language you use 🗣️</h2><p><ul><li>You should avoid using acronyms and technical terms unless you know that your users are experts.</li><li>Be specific; if you sell custom-made notebooks then “Shop” is less effective than “Hardback notebooks”, “Leather-bound notebooks” etc</li></ul></p>"
         },
         {
-            "html": "<h2 class='font-serif'>So, it’s more than design?</h2><p>Yes.</p><p>Historically someone who “just” designs a website or product might be referred to as a Web Designer or UI (User Interface) designer.</p><p>A UI or Web designer is focused on what the user sees and interacts with. Elements like buttons, imagery, navigation, contact form fields etc.</p><p>While they may have an understanding of the customer and a deep understanding of design, they are usually less focused on the <strong>Who, Why, What, and How</strong>.</p>"
+            "html": "<h2 class='font-serif'>2. Don't hide your navigation behind a button click 🫣</h2><p>Hiding your navigation in a hamburger 🍔 menu (hidden behind a click) — people use the navigation to confirm they're in the right place, hiding it increases the changes they'll leave 🏃‍♂️</p>"
         },
         {
-            "html": "<h2 class='font-serif'>Why is UX important to my business?</h2><p>Now you know what UX is, it may be a little clearer why it’s good for your business.</p><p>A customer who has a good user experience with your product will have a direct positive emotional connection with you and your business. This leads to increasing trust, repeat business and word-of-mouth recommendations. It breeds satisfaction and the potential for loyalty.</p><p>And in the spirit of good UX, listen to research, not opinions…</p>"
-        },
-        {
-            "type": "quote",
-            "html": "According to a study by Forester, companies who invest in UX see a lower cost of customer acquisition, lower support cost, increased customer retention, and increased market share. Compared to their peers, the top 10 companies leading in customer experience outperformed the S&P index with close to triple the returns. The research also shows that, on average, every dollar invested in UX brings 100 dollars in return. That’s an ROI of a whopping 9,900 percent. — <a href=\"https://uxdesign.cc/driving-business-with-user-experience-d7f934a41b29\" target=\"_blank\">Atishay Goyal, uxdesign.cc</a>"
+            "html": "<h2 class='font-serif'>3. Avoid the machine gun method 🔫</h2><p>Too many options will cause <a href=\"https://uxpsychology.substack.com/p/lost-in-navigation-overcoming-the\" target=\"_blank\">choice paralysis. Reduce the complexity in navigation, you can provide more choice the deeper they go into the site.</p>"
         }
+        
     ],
     "inspo":
     {
@@ -27,8 +25,12 @@
     },
     "reference": [
         {
-            "link": "https://uxdesign.cc/driving-business-with-user-experience-d7f934a41b29",
-            "text": "Driving business with user experience"
+            "link": "https://userpilot.com/blog/navigation-ux/",
+            "text": "Navigation UX"
+        },
+        {
+            "link": "https://uxpsychology.substack.com/p/lost-in-navigation-overcoming-the",
+            "text": "Lost in Navigation: Overcoming the Paradox of Choice in UX Design"
         }
         
         
