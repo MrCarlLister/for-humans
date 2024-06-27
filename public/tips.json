@@ -53,13 +53,14 @@
         "icon": "FireIcon",
         "iconForeground": "red",
         "iconBackground": "blue" 
-      },
-      {
+    },
+    {
         "id": 5,
         "active": true,
         "subhead": "UX Tip 4",
         "title": "Making navigation easy",
         "desc": "It\"s more than a hamburger 🍔",
+        "bgImage": "https://utfs.io/f/098c1d4b-e656-47c6-b42f-6129af191837-ipoaix.webp",
         "content": "CONTENT — It\"s more than a hamburger 🍔",
         "href": "/tips/ux-tip-4-making-navigation-easy",
         "type": "Tips",
