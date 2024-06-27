@@ -14,7 +14,8 @@ export default function tipSideBar(props: { content: { reference: { id: number, 
    
     return (
         
-        <aside className="flex flex-col md:flex-row lg:flex-col gap-8 mx-8 lg:mx-0 pb-8">
+        <aside className=" mx-8 lg:mx-0 pb-8 lg:pb-0">
+            <div className="flex flex-col md:flex-row lg:flex-col gap-8 sticky top-8">
             { !Array.isArray(references) || references.length === 0 ? '' :
             <div className="shrink-0 border-t border-gray-200  lg:w-96 lg:border-l lg:border-t-0 ">
                 <ul role="list" className="divide-y divide-gray-100 py-8 px-8 bg-white rounded-md">
@@ -69,6 +70,7 @@ export default function tipSideBar(props: { content: { reference: { id: number, 
                 </ul>
             </div>
 }
+</div>
         </aside>
         
     )

@@ -38,7 +38,7 @@ export default function HeroTips(props: { headline: string, desc: string, image:
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#section-1"
+              href="#section-0"
               className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary inline-flex items-center space-x-2"
             >
               <span>Get started</span> <ArrowDownIcon className="h-5 w-5 text-blue-200" aria-hidden="true" />

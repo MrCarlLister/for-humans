@@ -67,16 +67,17 @@
         "icon": "Bars3Icon",
         "iconForeground": "orange",
         "iconBackground": "pink" 
-      },
-      {
+    },
+    {
         "id": 6,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 5",
         "title": "Headlines: Crafting Impactful Copy",
         "desc": "Master Benefit-Oriented Headlines!",
+        "bgImage": "https://utfs.io/f/75865ca2-17e3-406f-8616-7af5025b2625-ipoaiw.webp",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
         "href": "/tips/ux-tip-5-heroes-and-headlines-crafting-impactful-copy",
-        "type": "Coming soon",
+        "type": "Tips",
         "icon": "ShieldCheckIcon",
         "iconForeground": "blue",
         "iconBackground": "yellow" 
