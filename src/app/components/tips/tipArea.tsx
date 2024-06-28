@@ -4,7 +4,7 @@ export default function tipArea(props: { content: { type: string, html: string }
 
 
     return (
-        <div className="px-4 pt-6 pb-12 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6 prose xl:prose-lg">
+        <div className="px-4 pt-6 pb-12 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6 prose xl:prose-lg prose-img:mx-auto prose-img:max-w-96 prose-figcaption:text-center">
             {contentArray.map((detail,id) => (
 
                 (['bonus', undefined].includes(detail.type)) ?

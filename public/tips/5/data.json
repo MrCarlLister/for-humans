@@ -1,0 +1,40 @@
+
+{
+        
+    "content": [
+        {
+            "type": "quote",
+            "html":"<p>Navigation UX is the design that guides users intuitively through a product’s interface to achieve their goals. </p><a href=\"https://userpilot.com/blog/navigation-ux/\" target=\"_blank\">— userpilot.com</a>"
+
+        },
+        {
+            "html": "<h2 class='font-serif'>1. Think about the language you use 🗣️</h2><p><ul><li>You should avoid using acronyms and technical terms unless you know that your users are experts.</li><li>Be specific; if you sell custom-made notebooks then “Shop” is less effective than “Hardback notebooks”, “Leather-bound notebooks” etc</li></ul></p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>2. Don't hide your navigation behind a button click 🫣</h2><p>Hiding your navigation in a hamburger 🍔 menu (hidden behind a click) — people use the navigation to confirm they're in the right place, hiding it increases the changes they'll leave 🏃‍♂️</p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>3. Avoid the machine gun method 🔫</h2><p>Too many options will cause <a href=\"https://uxpsychology.substack.com/p/lost-in-navigation-overcoming-the\" target=\"_blank\">choice paralysis</a>. Reduce the complexity in navigation, you can provide more choice the deeper they go into the site.</p>"
+        }
+        
+    ],
+    "inspo":
+    {
+        "link": "https://dribbble.com/epluribusunum1985/collections/7141293-Website-naviation",
+        "image": "https://via.placeholder.com/150"
+    },
+    "reference": [
+        {
+            "link": "https://userpilot.com/blog/navigation-ux/",
+            "text": "Navigation UX"
+        },
+        {
+            "link": "https://uxpsychology.substack.com/p/lost-in-navigation-overcoming-the",
+            "text": "Lost in Navigation: Overcoming the Paradox of Choice in UX Design"
+        }
+        
+        
+        
+    ]
+
+}
