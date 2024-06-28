@@ -7,6 +7,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "For humans",
   description: "Helping businesses improve themselves for free",
+  openGraph: {
+    images: "https://utfs.io/f/8f37e732-f399-48d0-bd5d-2bbd61b2378b-a28uhi.jpg",
+  }
 };
 
 export default function RootLayout({
