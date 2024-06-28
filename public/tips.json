@@ -81,13 +81,14 @@
         "icon": "ShieldCheckIcon",
         "iconForeground": "blue",
         "iconBackground": "yellow" 
-      },
-      {
+    },
+    {
         "id": 7,
         "active": true,
         "subhead": "UX Tip 6",
         "title": "Stop hiding content in sliders!",
         "desc": "How to use them effectively",
+        "bgImage": "https://utfs.io/f/ad66d188-6018-41ce-9f62-d1d3247dfaed-ipoaiv.webp",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
         "href": "/tips/ux-tip-6-stop-hiding-content-in-sliders",
         "type": "Tips",
