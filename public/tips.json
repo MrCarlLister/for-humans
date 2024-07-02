@@ -95,8 +95,8 @@
         "icon": "FilmIcon",
         "iconForeground": "orange",
         "iconBackground": "purple" 
-      },
-      {
+    },
+    {
         "id": 8,
         "active": false,
         "subhead": "",
@@ -104,21 +104,22 @@
         "desc": "Details coming soon!",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
         "href": "#",
-        "type": "Coming 17th June",
+        "type": "Coming Soon",
         "icon": "QuestionMarkCircleIcon",
         "iconForeground": "emerald",
         "iconBackground": "fuchsia" 
-      },
-      {
+    },
+    {
         "id": 9,
-        "active": false,
+        "active": true,
         "subhead": "UX Tip 7",
-        "title": "Familiarity — and how it impacts your site",
-        "desc": "Details coming soon!",
+        "title": "Familiarity",
+        "bgImage": "https://utfs.io/f/70e803cb-1cc7-43b6-8e42-73211c13fb54-ipoait.webp",
+        "desc": "Enhance User Experience with Familiar Website Patterns 🚀",
         "content": "CONTENT — Master Benefit-Oriented Headlines!",
-        "href": "#",
-        "type": "Coming 1st July",
-        "icon": "QuestionMarkCircleIcon",
+        "href": "/tips/ux-tip-7-familiarity",
+        "type": "Tips",
+        "icon": "SquaresPlusIcon",
         "iconForeground": "indigo",
         "iconBackground": "amber" 
       }
