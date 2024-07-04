@@ -41,21 +41,9 @@
         "iconForeground": "pink",
         "iconBackground": "green" 
       },
-      {
-        "id": 4,
-        "active": true,
-        "title": "What does UX mean?",
-        "desc": "And how it can help grow your business",
-        "bgImage": "https://utfs.io/f/e1b9b903-46b5-4476-82d6-e4fadc121ec2-ipoaiy.webp",
-        "content": "CONTENT — 👀 But what is \"UX\"!",
-        "href": "/tips/how-a-lil-ux-can-grow-your-business",
-        "type": "What is",
-        "icon": "FireIcon",
-        "iconForeground": "red",
-        "iconBackground": "blue" 
-    },
+
     {
-        "id": 5,
+        "id": 4,
         "active": true,
         "subhead": "UX Tip 4",
         "title": "Making navigation easy",
@@ -69,7 +57,7 @@
         "iconBackground": "pink" 
     },
     {
-        "id": 6,
+        "id": 5,
         "active": true,
         "subhead": "UX Tip 5",
         "title": "Headlines: Crafting Impactful Copy",
@@ -83,7 +71,7 @@
         "iconBackground": "yellow" 
     },
     {
-        "id": 7,
+        "id": 6,
         "active": true,
         "subhead": "UX Tip 6",
         "title": "Stop hiding content in sliders!",
@@ -97,20 +85,7 @@
         "iconBackground": "purple" 
     },
     {
-        "id": 8,
-        "active": false,
-        "subhead": "",
-        "title": "What is a Site Map?",
-        "desc": "Details coming soon!",
-        "content": "CONTENT — Master Benefit-Oriented Headlines!",
-        "href": "#",
-        "type": "Coming Soon",
-        "icon": "QuestionMarkCircleIcon",
-        "iconForeground": "emerald",
-        "iconBackground": "fuchsia" 
-    },
-    {
-        "id": 9,
+        "id": 7,
         "active": true,
         "subhead": "UX Tip 7",
         "title": "Familiarity",
