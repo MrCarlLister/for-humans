@@ -3,20 +3,37 @@
         
     "content": [
         {
-            "html": "<figure class='max-w-32'><img src=\"https://utfs.io/f/fae88e7f-c386-4a03-98f0-b13abbfac675-f3w1qo.avif\"><figcaption>Dorothea Lange, Migrant Mother.</figcaption></figure><h2 class='font-serif'>1. Pick Emotionally Engaging Imagery or Videos 🎭</h2><p>The correct type of media should;<ul><li>Grab your attention</li><li>Provide information quicker than words</li><li>Lead your eye to key information or a call to action</li><li>Evoke specific emotions tied to your business</li><li>Be aesthetically pleasing</li></ul></p>"
+            "html": "<h2 class='font-serif'>1. Limit the number of slides to 3 🚫</h2><p>Less is more with sliders. Research shows that engagement beyond the 1st slide drops dramatically, from around 80% on the 1st slide to ~15% for the 2nd and 3rd. Beyond that it is almost non-existant. For best results...</p>"
         },
         {
-            "html": "<h2 class='font-serif'>2. Benefit-Oriented Headline 💖</h2><p>Instead of a headline like <strong>Book your holiday today!</strong> a better, benefit-oriented version might read <strong>Experience Paradise: Book Your Dream Vacation Today!</strong></p>"
+            "html": "<h2 class='font-serif'>2. Use a narative to link multiple slides 📖</h2><p>If each slide is a completely separate message,  you're asking people to pull the lever and gamble on the next slides relevance. If you weave a narative between slide 1 and 2 then they know what to expect from slide 3 and beyond.</p>"
         },
         {
-            "html": "<h2 class='font-serif'>3. Social Proof 💬</h2><p>Including testimonials, reviews, or social media mentions within the hero section of your site will build trust and credibility.<ul><li><strong>Be authentic</strong> — show all reviews, Good and bad!</li><li><strong>Get permission</strong> — reach out to the customer before displaying their private reviews</li><li><strong>Keep it recent</strong> — avoid displaying old reviews</li></ul></p>"
+            "html": "<h2 class='font-serif'>3. Use clear and concise messaging 💬</h2><p>Each slide should have a clear message, utilising relevant copy and imagery as well as a descriptive call-to-action (if relevant)</p>"
         }
         
     ],
     "inspo":
     {
-        "link": "https://dribbble.com/epluribusunum1985/collections/7141317-Impactful-content",
+        "link": "https://dribbble.com/epluribusunum1985/collections/7109615-Carousels",
         "image": "https://via.placeholder.com/150"
-    }
+    },
+    "reference": [
+        {
+            "link": "https://searchatlas.com/blog/the-pros-and-cons-of-website-sliders-are-they-worth-it/",
+            "text": "Pros and cons of website sliders"
+        },
+        {
+            "link": "https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/",
+            "text": "Banner blindness"
+        },
+        {
+            "link": "https://erikrunyon.com/2013/01/carousel-interaction-stats/",
+            "text": "Carousel interaction stats"
+        }
+        
+        
+        
+    ]
 
 }
