@@ -1,5 +1,6 @@
 ---
 date: 05.07.2024T14:21
+slug: a-test-of-fields
 active: true
 title: Improve your buttons
 subhead: "UX Tip "
