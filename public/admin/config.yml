@@ -16,9 +16,12 @@ collections:
       - {name: "inspo-ref", label: "Inspiration & Reference"}
       - {name: "content", label: "Content"}
     fields: # The fields for each document, usually in front matter
+      - {label: "Subhead", name: "subhead", widget: "string", group: "content"}
+      - {label: "Description", name: "desc", widget: "string", group: "content"}
       - {label: "Title", name: "title", widget: "string", group: "content"}
       - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", group: "content"}
       - {label: "Body", name: "body", widget: "markdown", group: "content"}
+      - {label: "Active", name: "active", widget: "boolean", default: true, group: "content"},
       - label: "Reference"
         name: "reference"
         widget: "list"
