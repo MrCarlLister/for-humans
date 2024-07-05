@@ -7,12 +7,21 @@ public_folder: "/uploads" # Where the media files can be accesed from the server
 publish_mode: editorial_workflow # For Drafts
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/blogs" # The path to the folder where the documents are stored
+  - name: "tips" # Used in routes, e.g., /admin/collections/tips
+    label: "Tips" # Used in the UI
+    folder: "content/tips" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fieldGroups:
+      - {name: "inspo-ref", label: "Inspiration & Reference"}
+      - {name: "content", label: "Content"}
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string", group: "content"}
+      - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", group: "content"}
+      - {label: "Body", name: "body", widget: "markdown", group: "content"}
+      - label: "Reference"
+        name: "reference"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
