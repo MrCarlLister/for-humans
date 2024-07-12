@@ -1,115 +1,46 @@
-import fs from 'fs';
-import path from 'path';
-   
+import fs from 'fs'
+import ReactMarkdown from 'react-markdown'
+import matter from 'gray-matter'
+import Head from 'next/head'
 import Hero from "components/hero-tips";
 import MainContent from 'components/tips/tipsMainContent';
 import Newsletter from "components/newsletter";
 import Footer from "components/footer";
-import Tips from "components/tips";
-import type { Metadata } from "next";
-
-interface PageProps {
-    title: string;
-    description: string;
-  }
-  
-  export const metadata: Metadata = {
-    title: "Default Title",
-    description: "Default Description",
-  };
-type ReferenceItem = {
-    text: string;
-    link: string;
-    image: string;
-};
-
-type ContentItem = {
-    intro: string;
-    inspo: {
-        link: string;
-        image: string;
-    };
-    reference: ReferenceItem[][];
-    tips: {
-        Tip1: string;
-        Tip2: string;
-        Tip3: string;
-    };
-};
-
-type Tip = {
-    id: number;
-    active: boolean;
-    bgImage: string;
-    image: string;
-    subhead: string;
-    title: string;
-    desc: string;
-    content: ContentItem;
-    href: string;
-    type: string;
-    icon: string;
-    iconForeground: string;
-    iconBackground: string;
-};
-
-
-type TipDetailProps = {
-  params: { slug: string };
-};
+import TipsC from "components/tips";
 
 export async function generateStaticParams() {
-  const filePath = path.join(process.cwd(), 'public', 'tips.json');
-  const jsonData = fs.readFileSync(filePath, 'utf8');
-  const tips: Tip[] = JSON.parse(jsonData);
-
-  return tips.map((tip) => ({
-    slug: tip.href,
-  }));
-}
-
-const TipDetail = async ({ params }: TipDetailProps) => {
-   
-  const filePath = path.join(process.cwd(), 'public', 'tips.json');
-
-  const jsonData = fs.readFileSync(filePath, 'utf8');
-  const tips: Tip[] = JSON.parse(jsonData);
-
-  
-  const tip = tips.find((tip) => tip.href === '/tips/'+params.slug);
-
-//   convert tip.id to string
-
-
-
-
-  
-  
-  if (!tip) {
-      return <div>Tip not found</div>;
-    }
+    const filesInProjects = fs.readdirSync('./content/tips');
     
-    // console.log(tip.content.reference[0]);
-    // const imagePath = path.join(process.cwd(), 'public', 'tips', tip.id.toString(), tip.image);
-    const imagePath = tip.id.toString() +'/'+ tip.image;
-    metadata.title = "For humans | " + tip.title;
-    metadata.description = tip.desc;
-
+    const paths = filesInProjects.map(file => {
+      const filename = file.slice(0, file.indexOf('.'));
+      return { slug: filename };
+    });
   
-  return (
+    return paths;
+  }
+  
+  export default function Tips({ params }: { params: { slug: string } }) {
+    const fileContent = matter(fs.readFileSync(`./content/tips/${params.slug}.md`, 'utf8'));
+    const frontmatter = fileContent.data;
+    const markdown = fileContent.content;
     <main>
-      <Hero headline={tip.title} desc={tip.desc} image={imagePath} fg={tip.iconForeground} bg={tip.iconBackground} bgImage={tip.bgImage} />
-      <MainContent id={tip.id} />
-      <Tips currentId={tip.id} noToShow={3} />
-      <Newsletter />
-      <Footer />
+        <Hero headline={frontmatter.title} desc={frontmatter.desc} image={imagePath} fg={frontmatter.iconForeground} bg={frontmatter.iconBackground} bgImage={frontmatter.bgImage} />
+        {/* <MainContent id={frontmatter.id} />
+        <TipsC currentId={tip.id} noToShow={3} /> */}
+        <Newsletter />
+        <Footer />
     </main>
-  );
-
- 
-
-
-
-};
-
-export default TipDetail;
+    // return (
+    //   <div>
+    //     <Head>
+    //       <title>Demo Tips | {frontmatter.title}</title>
+    //     </Head>
+    //     <h1>{frontmatter.title}</h1>
+    //     <span>{frontmatter.date}</span>
+    //     <hr />
+    //     <ReactMarkdown>
+    //       {markdown}
+    //     </ReactMarkdown>
+    //   </div>
+    // );
+  }
