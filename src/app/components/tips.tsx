@@ -5,7 +5,7 @@ type TipsProps = {
 };
 export default function Tips({
     currentId = 0,
-    noToShow = 10
+    noToShow = 99
 }: TipsProps) {
     
 

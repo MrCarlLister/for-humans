@@ -1,0 +1,42 @@
+
+{
+        
+    "content": [
+        {
+            "html": "<h2 class='font-serif'>1. Organize information logically and clearly 📃</h2><p>Use bullet points to list important information and group related data together to help users quickly find what they need.</p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>2. Avoid jargon ☝️</h2><p>Especially in navigation menus or links. Not everyone will know the meaning of jargon, and needing a manual or dictionary to use your site is off-putting.</p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>3. Consider familiar visuals 🔔</h2><p>Use icons that people know through familiarity (house for home icon, bell for notifications) this will make you website much more intuative to use. Also consider adopting similar photography styles; for example profile pictures for team pages.</p>"
+        }
+        
+    ],
+    "inspo":
+    {
+        "link": "https://dribbble.com/epluribusunum1985/collections/7146165-Familiarity",
+        "image": "https://via.placeholder.com/150"
+    },
+    "reference": [
+        {
+            "link": "https://lawsofux.com/jakobs-law/",
+            "text": "Jacob's Law"
+        },
+        {
+            "link": "https://lawsofux.com/articles/2024/familiar-vs-novel/",
+            "text": "Familiar vs Novel"
+        },
+        {
+            "link": "https://arc.net/",
+            "text": "Arc Browser"
+        },
+        {
+            "link": "http://species-in-pieces.com/",
+            "text": "Species in Pieces"
+        }
+        
+        
+    ]
+
+}

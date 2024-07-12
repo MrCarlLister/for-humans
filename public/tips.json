@@ -97,5 +97,65 @@
         "icon": "SquaresPlusIcon",
         "iconForeground": "indigo",
         "iconBackground": "amber" 
+    },
+    {
+        "id": 8,
+        "active": false,
+        "subhead": "Coming Monday 15th July",
+        "title": "Site speed",
+        "desc": "Explore what affects site speed and how to make your site faster for better user experience 🏎️",
+        "href": "/tips/site-speed",
+        "type": "Tips",
+        "icon": "ChevronDoubleRightIcon",
+        "iconForeground": "indigo",
+        "iconBackground": "amber" 
+    },
+    {
+        "id": 9,
+        "active": false,
+        "subhead": "Coming Monday 29th July",
+        "title": "Social Proof",
+        "desc": "TBC",
+        "href": "/tips/site-speed",
+        "type": "Tips",
+        "icon": "UserCircleIcon",
+        "iconForeground": "indigo",
+        "iconBackground": "amber" 
+    },
+    {
+        "id": 10,
+        "active": false,
+        "subhead": "Coming Monday 12th August",
+        "title": "SEO Tips",
+        "desc": "TBC",
+        "href": "/tips/site-speed",
+        "type": "Tips",
+        "icon": "MagnifyingGlassIcon",
+        "iconForeground": "indigo",
+        "iconBackground": "amber" 
+    },
+    {
+        "id": 11,
+        "active": false,
+        "subhead": "Coming Monday 26th August",
+        "title": "Understanding Analytics",
+        "desc": "TBC",
+        "href": "/tips/site-speed",
+        "type": "Tips",
+        "icon": "ChartPieIcon",
+        "iconForeground": "indigo",
+        "iconBackground": "amber" 
+    },
+    {
+        "id": 12,
+        "active": false,
+        "subhead": "Coming Monday 9th September",
+        "title": "Website Security",
+        "desc": "TBC",
+        "href": "/tips/site-speed",
+        "type": "Tips",
+        "icon": "LockClosedIcon",
+        "iconForeground": "indigo",
+        "iconBackground": "amber" 
       }
   ]
