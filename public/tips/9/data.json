@@ -1,0 +1,45 @@
+
+{
+        
+    "content": [
+        {
+            "html": "<h2 class='font-serif'>1. Page speed and responsiveness 📱</h2><p><ul><li>Use tools like <a href='https://pagespeed.web.dev/' target='_blank'>PageSpeed Insights</a> to check your site's performance on both mobile and desktop. We've got more tips on this, too!</li><li>A fast, mobile-friendly site boosts engagement metrics like dwell time and click-through rates, enhancing your site's authority with search engines.</li></ul></p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>2. Headings 🔍</h2><p><ul><li>When users land on a page, they scan headings to see if the content matches their search. Search engines do the same to understand your page’s topic.</li><li>Use the correct heading tags to inform search engines and screen readers about the content hierarchy:<ul><li>`&lt;h1&gt;` for page title</li><li>`&lt;h2&gt;` and `&lt;h3&gt;` sub headings</li><li>`&lt;h4&gt;`, `&lt;h5&gt;` and `&lt;h6&gt;` further structure within those subsections.</li></ul></li></ul></p>"
+        },
+        {
+            "html": "<h2 class='font-serif'>3. Internal linking 🔗</h2><p><ul><li>Link related content naturally to help users explore topics more deeply or find additional services.</li><li>Search engines crawl these links, expanding your site's relevance and authority on specific subjects, which improves your search rankings.</li></ul></p>"
+        }
+        
+    ],
+    "inspo":
+    {
+       
+    },
+    "reference": [
+        {
+            "link": "https://www.lyssna.com/blog/seo-and-ux/",
+            "text": "🔍 Lyssna — SEO & UX"
+        },
+        {
+            "link": "https://abilitynet.org.uk/factsheets/introduction-screen-readers",
+            "text": "📖 AbilityNet — Introduxction to screen-readers"
+        },
+        {
+            "link": "https://www.saaspirin.co/blog/top-5-best-seo-software-for-small-businesses",
+            "text": "saaspirin — 5 best SEO software for small businesses"
+        },
+        {
+            "link": "https://www.seo.com/basics/on-page-seo/user-experience/",
+            "text": "SEO.com — SEO and UX"
+        },
+        {
+            "link": "https://usabilitygeek.com/5-fundamentals-of-ux-design-that-impact-seo/",
+            "text": "Usability Geek — Fundamentals of UX design that impact SEO"
+        }
+        
+        
+    ]
+
+}
