@@ -3,13 +3,13 @@
         
     "content": [
         {
-            "html": "<h2 class='font-serif'>1. Page speed and responsiveness 📱</h2><p><ul><li>Use tools like <a href='https://pagespeed.web.dev/' target='_blank'>PageSpeed Insights</a> to check your site's performance on both mobile and desktop. We've got more tips on this, too!</li><li>A fast, mobile-friendly site boosts engagement metrics like dwell time and click-through rates, enhancing your site's authority with search engines.</li></ul></p>"
+            "html": "<h2 class='font-serif'>1. Define your target audience 👥</h2><p>Understanding who your customers are; their needs, preferences, and behavior, can help you narrow down the most effective types of Social Proof methods to use.</p><p>Use surveys, social media insights, and customer feedback to gather this information.</p>"
         },
         {
-            "html": "<h2 class='font-serif'>2. Headings 🔍</h2><p><ul><li>When users land on a page, they scan headings to see if the content matches their search. Search engines do the same to understand your page’s topic.</li><li>Use the correct heading tags to inform search engines and screen readers about the content hierarchy:<ul><li>`&lt;h1&gt;` for page title</li><li>`&lt;h2&gt;` and `&lt;h3&gt;` sub headings</li><li>`&lt;h4&gt;`, `&lt;h5&gt;` and `&lt;h6&gt;` further structure within those subsections.</li></ul></li></ul></p>"
+            "html": "<h2 class='font-serif'>2. Decide on the most effective Social Proof methods ⭐</h2><p>Are your customers influenced by facts and logic? Emotions? Ethics and character?</p><p><strong>📊 Appealing to: Facts & Logic</strong><ul><li>“521 people liked this” (Facebook, Linkedin) — <a href='https://www.linkedin.com/pulse/power-social-proof-ux-boosting-conversion-rates-user-trust-kumaran/' target='_blank'>example</a></li><li>“59,383 views - 18 hours ago” (YouTube) — <a href='https://www.youtube.com/watch?v=VJogiox0KBs' target='_blank'>example</a></li><li>“89% liked this” (Rotten Tomatoes) — <a href='https://www.rottentomatoes.com/m/raiders_of_the_lost_ark' target='_blank'>example</a></li><li>401 shares (Interaction Design) — <a href='https://www.interaction-design.org/literature/topics/social-proof?srsltid=AfmBOoqRW3CnkNycuE-yFbM3B7gtoc_GKf4JXqGAQB3ojMJtXYGHSjHa' target='_blank'>example</a></li></ul></p><p><strong>🎭 Appealing to: Emotions</strong><ul><li>Testimonials</li><li>Reviews (context, not star ratings)</li></ul></p><p><strong>⚖️ Appealing to: Ethics, moral, and character</strong><ul><li>Approach your audiences’ role models to deliver endorsements, quotes, and statistics.</li><li>Find where your audiences “hang out”, and which groups they belong to. This information can be used to communicate ideas.</li></p>"
         },
         {
-            "html": "<h2 class='font-serif'>3. Internal linking 🔗</h2><p><ul><li>Link related content naturally to help users explore topics more deeply or find additional services.</li><li>Search engines crawl these links, expanding your site's relevance and authority on specific subjects, which improves your search rankings.</li></ul></p>"
+            "html": "<h2 class='font-serif'>3. Placement and format 📃</h2><p><ul><li>Provide testimonials or expert quotations on a sign-up page</li><li>Customer quotes when talking about your product or service</li><li>Display accreditations in the footer</li><li>Display testimonials from industries/groups relevant to the service page you’re displaying them on</li><li>Consider leveraging influencers (relevant to your audience) to endorse or review your product<li></ul>"
         }
         
     ],
@@ -18,26 +18,6 @@
        
     },
     "reference": [
-        {
-            "link": "https://www.lyssna.com/blog/seo-and-ux/",
-            "text": "Lyssna — SEO & UX"
-        },
-        {
-            "link": "https://abilitynet.org.uk/factsheets/introduction-screen-readers",
-            "text": "AbilityNet — Introduction to screen-readers"
-        },
-        {
-            "link": "https://www.saaspirin.co/blog/top-5-best-seo-software-for-small-businesses",
-            "text": "saaspirin — 5 best SEO software for small businesses"
-        },
-        {
-            "link": "https://www.seo.com/basics/on-page-seo/user-experience/",
-            "text": "SEO.com — SEO and UX"
-        },
-        {
-            "link": "https://usabilitygeek.com/5-fundamentals-of-ux-design-that-impact-seo/",
-            "text": "Usability Geek — Fundamentals of UX design that impact SEO"
-        }
         
         
     ]
