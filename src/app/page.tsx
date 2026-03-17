@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Hero data={1} />
-      <Tips />
+      <Tips currentId={0} rand={false} showInactive={true} />
       <Newsletter />
       <Footer />
     </main>

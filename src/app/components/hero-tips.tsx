@@ -1,6 +1,7 @@
 import { ArrowDownIcon } from '@heroicons/react/20/solid'
 import MainNav from 'components/global/main-nav';
 import { classNames } from 'utils/helper';
+import { useMemo } from 'react';
 
 
 
@@ -9,9 +10,9 @@ export default function HeroTips(props: { headline: string, desc: string, image:
     // const imageUrl = props.image;
 
     // Inline styles with a background image
-  const heroStyle = {
-    backgroundImage: `url(${props.bgImage})`
-  };
+  const heroStyle = useMemo(() => ({
+  backgroundImage: `url(${props.bgImage})`
+}), [props.bgImage]);
     
 
   return (
