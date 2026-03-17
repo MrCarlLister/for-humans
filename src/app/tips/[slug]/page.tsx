@@ -100,7 +100,7 @@ const TipDetail = async ({ params }: TipDetailProps) => {
     <main>
       <Hero headline={tip.title} desc={tip.desc} image={imagePath} fg={tip.iconForeground} bg={tip.iconBackground} bgImage={tip.bgImage} />
       <MainContent id={tip.id} />
-      <Tips currentId={tip.id} noToShow={3} />
+      <Tips currentId={tip.id} noToShow={3} rand={true} showInactive={false} />
       <Newsletter />
       <Footer />
     </main>
